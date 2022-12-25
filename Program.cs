@@ -15,7 +15,7 @@ void PrintArray(string[] array)
 
 
 
-string [] SearchArray (string []arr)
+string [] SearchInArray (string []arr)
 {    
     string [] arry = new string [arr.Length];
     for(int i=0; i<arr.Length;i++)
@@ -28,7 +28,7 @@ string [] SearchArray (string []arr)
     return arry;
 }
 PrintArray( Arr);
-SearchArray(Arr);
-string [] Myarr = SearchArray(Arr);
+SearchInArray(Arr);
+string [] Myarr = SearchInArray(Arr);
 Console.WriteLine();
 PrintArray(Myarr);
